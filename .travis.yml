@@ -13,7 +13,7 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
-  local-dir: book
+  local-dir:${TRAVIS_BUILD_DIR}/book
   on:
     branch: master
 
