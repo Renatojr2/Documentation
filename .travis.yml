@@ -13,6 +13,7 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
+  edge: true # use Travis-CI dpl v2
   local_dir: book
   on:
     branch: master
