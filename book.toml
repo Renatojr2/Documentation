@@ -1,6 +1,0 @@
-[book]
-authors = ["Renato Junior"]
-language = "pt-br"
-multilingual = true
-src = "src"
-title = "Aqui eu mudo o titulo"
