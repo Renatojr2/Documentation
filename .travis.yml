@@ -13,7 +13,9 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: ${TRAIS_BUILD_DIR}/Book
+  edge: true # use Travis-CI dpl v2
+  local_dir: book
+  deploy_key: deploy_key
   on:
     branch: master
 
