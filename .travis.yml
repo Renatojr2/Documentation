@@ -13,7 +13,6 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: book
   on:
     branch: master
 
