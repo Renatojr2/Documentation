@@ -13,7 +13,7 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: gh_pages
+  local_dir: ${TRAIS_BUILD_DIR}/book
   on:
     branch: master
 
