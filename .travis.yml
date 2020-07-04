@@ -15,6 +15,7 @@ deploy:
   github-token: $GITHUB_TOKEN
   edge: true # use Travis-CI dpl v2
   local_dir: book
+  deploy_key: deploy_key
   on:
     branch: master
 
