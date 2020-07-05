@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Chapter 1 - Aqui eu mudo o titulo</title>
+        <title>Node - Full-Stack Developent</title>
         
         
 
@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li><li class="chapter-item expanded "><a href="chapter_2.html"><strong aria-hidden="true">2.</strong> Chapter 2</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="node.html"><strong aria-hidden="true">1.</strong> Node</a></li><li class="chapter-item expanded "><a href="Api-Rest.html"><strong aria-hidden="true">2.</strong> REST-api</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -121,7 +121,7 @@
                         
                     </div>
 
-                    <h1 class="menu-title">Aqui eu mudo o titulo</h1>
+                    <h1 class="menu-title">Full-Stack Developent</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -155,29 +155,33 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#chapter-1" id="chapter-1">Chapter 1</a></h1>
-<p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit. Aliquam consequat ullamcorper augue vitae elementum. Vivamus viverra erat orci, in ultricies leo porttitor consectetur. Aliquam vel est odio. Phasellus accumsan, ligula eget posuere gravida, sapien eros feugiat risus, ac tempus nisi lectus id tellus. Maecenas mollis dignissim consequat. Nam facilisis suscipit mi, eget lacinia nulla porta id. Donec et condimentum leo. Duis elit sem, sodales sagittis tincidunt et, aliquet a nisl. Mauris volutpat quam ante, vel iaculis odio luctus in. Maecenas commodo sem id lorem aliquet pellentesque. Cras sed eros sed magna placerat egestas ac nec leo.</p>
-<pre><code class="language-javascript">import React from 'react';
-import ReactDOM from 'react-dom';
-
-import App from './App';
-
-
-ReactDOM.render(
-  &lt;React.StrictMode&gt;
-    &lt;App /&gt;
-  &lt;/React.StrictMode&gt;,
-  document.getElementById('root')
-);.
-</code></pre>
-<p>Aenean semper egestas tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam leo dolor, facilisis ut bibendum vel, imperdiet id nisi. Maecenas blandit maximus nisl, sed ornare massa lacinia vitae. Curabitur pulvinar nulla libero, aliquam maximus nisi malesuada nec. Duis eget venenatis nisi. Fusce condimentum arcu nulla, nec dignissim erat tempus nec. Nullam quis fringilla enim, eget mattis dolor. Mauris accumsan, mauris quis lobortis commodo, elit turpis fermentum lacus, at scelerisque leo est ut dolor. Nunc ullamcorper purus ac dapibus efficitur. Sed vitae odio at justo malesuada vehicula ac at ligula.</p>
-<p>Vestibulum pretium id purus sit amet 
-viverra arcu id tempor dictum. Nulla elementum |accumsan neque, sed elementum diam maximus id. Vivamus sagittis libero metus, vitae dignissim diam accumsan sed. Etiam hendrerit luctus urna vel pretium. Phasellus in risus id |magna accumsan vulputate. Donec tincidunt non nisl quis pharetra. Aliquam erat volutpat.</p>
-<p>Cras sed augue quis nulla bibendum ornare. Donec mollis, augue quis hendrerit aliquet, odio arcu vestibulum neque, a efficitur libero velit ut dui. Suspendisse potenti. Nam ultricies, ex nec tincidunt cursus, justo odio dictum nulla, sed placerat eros erat id nibh. Donec blandit feugiat fermentum. Pellentesque malesuada magna eu nibh consequat, sed consectetur dolor euismod. Donec in dui porta, malesuada dui eget, sollicitudin velit. Etiam viverra risus tortor, ac lobortis enim euismod vel.</p>
-<table><thead><tr><th>Hello</th><th>World</th></tr></thead><tbody>
-<tr><td>linhas</td><td>Linhas</td></tr>
-<tr><td>Linhas</td><td>Linhas</td></tr>
-</tbody></table>
+                        <h1><a class="header" href="#nodejs" id="nodejs">Nodejs</a></h1>
+<h2><a class="header" href="#conceitos-básicos-de-nodejs" id="conceitos-básicos-de-nodejs">Conceitos básicos de node.js.</a></h2>
+<ul>
+<li>Node é o javascript no Backend 'no servidor'</li>
+<li>Não lidamos com eventos do usuario final</li>
+<li>Rotas e integrações</li>
+<li>É uma plataforma</li>
+<li>Ele e construido em cima da v8, A v8 e a maquina que roda por tras do chrome</li>
+</ul>
+<h2><a class="header" href="#npm-ou-yarn" id="npm-ou-yarn">npm ou yarn</a></h2>
+<ul>
+<li>são gerenciadores de bibliotecas</li>
+<li>Fornece bibliotecas que você criou.</li>
+</ul>
+<h2><a class="header" href="#características-do-node" id="características-do-node">Características do Node</a></h2>
+<h3><a class="header" href="#event-loop" id="event-loop">Event Loop</a></h3>
+<ul>
+<li>baseada em eventos(rotas, na maioria das vezes)</li>
+<li>Coll-Stack</li>
+<li>Single-thread
+<ul>
+<li>c++ por trás como libuv</li>
+<li>background threads</li>
+</ul>
+</li>
+<li>Non-Blocking I/O input e output não bloqueante</li>
+</ul>
 
                     </main>
 
@@ -186,7 +190,7 @@ viverra arcu id tempor dictum. Nulla elementum |accumsan neque, sed elementum di
                         
 
                         
-                            <a rel="next" href="chapter_2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="Api-Rest.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -200,7 +204,7 @@ viverra arcu id tempor dictum. Nulla elementum |accumsan neque, sed elementum di
                 
 
                 
-                    <a rel="next" href="chapter_2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="Api-Rest.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
