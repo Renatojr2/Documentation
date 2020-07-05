@@ -19,4 +19,8 @@
 * Protocolo de comunicação padronizado
   * Mesma estrutura para web/mobile/api-publica
   * Comunicação com serviçoes esternos
+
+# Conteúdo da requisiçao
+
+![api image](apirest.PNG)
   
