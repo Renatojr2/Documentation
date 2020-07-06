@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Node - Full-Stack Developent</title>
+        <title>React - Full-Stack Developent</title>
         
         
 
@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="node.html" class="active"><strong aria-hidden="true">1.</strong> Node</a></li><li class="chapter-item expanded "><a href="Api-Rest.html"><strong aria-hidden="true">2.</strong> REST-api</a></li><li class="chapter-item expanded "><a href="react.html"><strong aria-hidden="true">3.</strong> React</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="node.html"><strong aria-hidden="true">1.</strong> Node</a></li><li class="chapter-item expanded "><a href="Api-Rest.html"><strong aria-hidden="true">2.</strong> REST-api</a></li><li class="chapter-item expanded "><a href="react.html" class="active"><strong aria-hidden="true">3.</strong> React</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -155,44 +155,36 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#nodejs" id="nodejs">Nodejs</a></h1>
-<h2><a class="header" href="#conceitos-básicos-de-nodejs" id="conceitos-básicos-de-nodejs">Conceitos básicos de node.js.</a></h2>
+                        <h1><a class="header" href="#reactjs" id="reactjs">ReactJs</a></h1>
+<h3><a class="header" href="#o-que-é-o-reactjs" id="o-que-é-o-reactjs">O que é o reactjs?</a></h3>
 <ul>
-<li>Node é o javascript no Backend 'no servidor'</li>
-<li>Não lidamos com eventos do usuario final</li>
-<li>Rotas e integrações</li>
-<li>É uma plataforma</li>
-<li>Ele e construido em cima da v8, A v8 e a maquina que roda por tras do chrome</li>
+<li>É uma biblioteca para construção de interfaces</li>
+<li>Contrução de spa (Single-page-aplication)</li>
+<li>Tudo fica dentro do javascript</li>
 </ul>
-<h2><a class="header" href="#npm-ou-yarn" id="npm-ou-yarn">npm ou yarn</a></h2>
-<ul>
-<li>são gerenciadores de bibliotecas</li>
-<li>Fornece bibliotecas que você criou.</li>
-</ul>
-<h2><a class="header" href="#características-do-node" id="características-do-node">Características do Node</a></h2>
-<h3><a class="header" href="#event-loop" id="event-loop">Event Loop</a></h3>
-<ul>
-<li>baseada em eventos(rotas, na maioria das vezes)</li>
-<li>Coll-Stack</li>
-<li>Single-thread
-<ul>
-<li>c++ por trás como libuv</li>
-<li>background threads</li>
-</ul>
-</li>
-<li>Non-Blocking I/O input e output não bloqueante</li>
-</ul>
+<pre><code class="language-javascript">import React from 'react';
+
+export default function Home() {
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;estrutura React&lt;/h1&gt;
+    &lt;/div&gt;
+  );
+}
+
+
+</code></pre>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-
-                        
-                            <a rel="next" href="Api-Rest.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
+                            <a rel="prev" href="Api-Rest.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
                             </a>
+                        
+
                         
 
                         <div style="clear: both"></div>
@@ -202,11 +194,11 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-
-                
-                    <a rel="next" href="Api-Rest.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
+                    <a rel="prev" href="Api-Rest.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
                     </a>
+                
+
                 
             </nav>
 
